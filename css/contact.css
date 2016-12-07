@@ -1,0 +1,67 @@
+body {
+    background-color: #dfd4cf;
+}
+
+
+nav li {
+  display: inline;
+  padding: 1em;
+  list-style: none;
+}
+
+/* First Frame */
+nav a:link,
+nav a:visited {
+  background: #76665f;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  
+  transition:
+    background .5s ease-out,
+    padding .25s cubic-bezier(.32,.82,.9,.62);
+}
+
+
+/* Last Frame */
+nav a:hover {
+  background: #242321;
+  padding-top: .5em;
+}
+
+
+
+
+
+
+
+
+form {
+  background: white;
+  padding: 10px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 10px;
+}
+
+
+/* Score: 0,0,1,1 */
+input[type=submit]  {
+  background: #242321;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  background: #96cdcd;
+  transition: background .25s;
+  outline: none;
+ 
+}

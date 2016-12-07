@@ -1,0 +1,80 @@
+body {
+    background-color: #dfd4cf}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Playfair+Display');
+
+
+/* First Frame */
+  
+  h1 {
+    font-size: 5em;
+    font-family: 'Pacifico', cursive;
+ 
+}
+
+body {
+  text-align: center;
+}
+
+
+p {
+  font-size: 2em;
+  padding: 1em;
+  width: 100%; 
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation Stuff*/
+
+
+nav li {
+  display: inline;
+  padding: 1em;
+  list-style: none;
+}
+
+/* First Frame */
+nav a:link,
+nav a:visited {
+  background: #76665f;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  
+  transition:
+    background .5s ease-out,
+    padding .25s cubic-bezier(.32,.82,.9,.62);
+}
+
+
+/* Last Frame */
+nav a:hover {
+  background: #242321;
+  padding-top: .5em;
+}
